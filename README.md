@@ -10,6 +10,41 @@ A practical computer vision annotation project demonstrating **video object trac
 
 </div>
 
+## Visual Results
+
+The examples below demonstrate the computer vision pipeline on a real-world traffic video. The workflow combines YOLO-based detection and segmentation with ByteTrack multi-object tracking and trajectory analysis.
+
+### Object Detection
+
+<img src="docs/assets/01_detection.jpg"
+     alt="YOLO object detection on traffic video"
+     width="100%">
+
+Detects relevant road users including pedestrians, cars, bicycles, motorcycles, buses, and trucks with class labels and confidence scores.
+
+### Multi-Object Tracking
+
+<img src="docs/assets/02_tracking.jpg"
+     alt="Multi-object tracking with persistent track IDs"
+     width="100%">
+
+Associates detections across video frames using persistent track IDs, allowing individual objects to be followed through the scene.
+
+### Trajectory Analysis
+
+<img src="docs/assets/03_trajectories.jpg"
+     alt="Tracked object trajectory visualization"
+     width="100%">
+
+Maintains a short history of recent object positions and visualizes movement paths while limiting trajectory length to reduce visual clutter.
+
+### Instance Segmentation
+
+<img src="docs/assets/04_segmentation.jpg"
+     alt="YOLO instance segmentation of road users"
+     width="100%">
+
+Produces pixel-level segmentation masks for detected road users, providing more precise object boundaries than bounding boxes alone.
 ---
 
 ## Overview
