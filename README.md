@@ -184,7 +184,7 @@ Checks include:
 
 ---
 
-## Planned Python Validation
+## Python Validation
 
 ```text
 Annotation Export
@@ -217,8 +217,7 @@ Tracked classes:              6
 Occluded instances:         421
 Potential QA issues:          9
 ```
-
-Values shown here illustrate the planned report format. Repository datasets will contain their own measured results.
+Repository datasets will contain their own measured results.
 
 ---
 
